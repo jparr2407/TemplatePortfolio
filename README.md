@@ -53,14 +53,14 @@ portfolio/
    - Biografia profissional
    - Métricas principais
    - Cards de conquistas
-   - <img src="https://github.com/user-attachments/assets/49485e8b-5813-498e-8c2a-937ed0191b4e" alt="Captura de tela" width="600"/>
+   <img src="https://github.com/user-attachments/assets/49485e8b-5813-498e-8c2a-937ed0191b4e" alt="Captura de tela" width="600"/>
 
 4. **Projetos**
    - Grid de projetos
    - Cards com detalhes
    - Imagens dos projetos
    - Icones de tecnologias utilizadas
-   - <img src="https://github.com/user-attachments/assets/e0ac11f0-9e15-4855-8b33-2f3f25ef84f8" alt="Captura de tela" width="600"/>
+   <img src="https://github.com/user-attachments/assets/e0ac11f0-9e15-4855-8b33-2f3f25ef84f8" alt="Captura de tela" width="600"/>
 
 5. **Habilidades**
    - Barras de progresso
