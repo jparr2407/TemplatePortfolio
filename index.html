@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio profissional - Engenheiro de Software/Dados">
+    <meta name="keywords" content="Portfólio, Desenvolvedor, Full Stack, Engenharia de Dados, Data Analytics, Cloud Computing, Python, PHP, SQL, MySQL, Oracle, PostgreSQL, GCP, Linux, HTML, CSS, JavaScript">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>Meu Portfólio</h1>
+            </div>
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li>
+                    <button class="theme-btn" aria-label="Alternar tema">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div id="particles-container" class="particles-container"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="typing-text">Olá, eu sou</h1>
+                <h2 class="name">Seu Nome</h2>
+                <p class="title">Sua Profissão</p>
+                <div class="cta-buttons">
+                    <a href="assets/cv.pdf" class="btn primary-btn" download="SeuNome - CV">Download CV</a>
+                    <a href="#contato" class="btn secondary-btn">Me Contate</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/seu-usuario-github" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/seu-usuario-linkedin/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/profile.jpg" alt="Foto profissional">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre">
+        <h2 class="section-title">Sobre Mim</h2>
+        <div class="sobre-content">
+            <div class="sobre-text">
+                <p class="sobre-descricao">
+                    [Insira aqui uma breve descrição profissional destacando sua experiência, 
+                    especialidades e principais realizações. Mantenha o texto profissional e 
+                    focado em suas competências principais.]
+                </p>
+                <div class="sobre-destaque">
+                    <p>Principais áreas de atuação:</p>
+                    <ul class="sobre-lista">
+                        <li><i class="fas fa-database"></i> Engenharia de Dados</li>
+                        <li><i class="fas fa-code"></i> Desenvolvimento de Software</li>
+                        <li><i class="fas fa-chart-line"></i> Análise de Dados</li>
+                        <li><i class="fas fa-cloud"></i> Cloud Computing (GCP)</li>
+                        <li><i class="fas fa-robot"></i> Inteligência Artificial</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="metricas">
+                <div class="metrica-card">
+                    <div class="metrica-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>1.5+</h3>
+                    <p>Anos de Experiência</p>
+                </div>
+                <div class="metrica-card">
+                    <div class="metrica-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>15+</h3>
+                    <p>Projetos Concluídos</p>
+                </div>
+                <div class="metrica-card">
+                    <div class="metrica-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>50+</h3>
+                    <p>Demandas Concluídas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos Section -->
+    <section id="projetos" class="projetos">
+        <h2 class="section-title">Meus Projetos</h2>
+        <div class="projetos-grid">
+            <!-- Projeto Card 1 -->
+            <div class="projeto-card" data-categoria="desenvolvimento">
+                <div class="projeto-img">
+                    <img src="assets/images/projeto1.jpg" alt="Portal Analytics">
+                </div>
+                <div class="projeto-info">
+                    <h3>Seu Projeto</h3>
+                    <p>[Descreva o objetivo do projeto, sua solução e resultados principais.]</p>
+                    <div class="projeto-tech">
+                        <span><i class="fab fa-html5"></i> HTML</span>
+                        <span><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span><i class="fab fa-js"></i> JavaScript</span>
+                        <span><i class="fab fa-python"></i> Python</span>
+                        <span><i class="fab fa-php"></i> PHP</span>
+                        <span><i class="fas fa-database"></i> MySQL</span>
+                        <span><i class="fab fa-linux"></i> Linux</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto Card 2 -->
+            <div class="projeto-card" data-categoria="automacao">
+                <div class="projeto-img">
+                    <img src="assets/images/projeto2.jpg" alt="Sistema de Monitoramento">
+                </div>
+                <div class="projeto-info">
+                    <h3>Seu Projeto</h3>
+                    <p>[Descreva o objetivo do projeto, sua solução e resultados principais.]</p>
+                    <div class="projeto-tech">
+                        <span><i class="fab fa-python"></i> Python</span>
+                        <span><i class="fab fa-php"></i> PHP</span>
+                        <span><i class="fab fa-windows"></i> Teams API</span>
+                        <span><i class="fab fa-telegram"></i> Telegram API</span>
+                        <span><i class="fas fa-database"></i> Oracle</span>
+                        <span><i class="fab fa-linux"></i> Linux</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto Card 3 -->
+            <div class="projeto-card" data-categoria="dados">
+                <div class="projeto-img">
+                    <img src="assets/images/projeto3.jpg" alt="Sistema de Escala">
+                </div>
+                <div class="projeto-info">
+                    <h3>Seu Projeto</h3>
+                    <p>[Descreva o objetivo do projeto, sua solução e resultados principais.]</p>
+                    <div class="projeto-tech">
+                        <span><i class="fab fa-python"></i> Python</span>
+                        <span><i class="fab fa-php"></i> PHP</span>
+                        <span><i class="fab fa-js"></i> JavaScript</span>
+                        <span><i class="fas fa-cloud"></i> Cloud (GCP)</span>
+                        <span><i class="fas fa-database"></i> MySQL</span>
+                        <span><i class="fab fa-linux"></i> Linux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades Section -->
+    <section id="habilidades" class="habilidades">
+        <h2 class="section-title">Minhas Habilidades</h2>
+        <div class="habilidades-container">
+            <div class="habilidades-categoria">
+                <h3>Frontend</h3>
+                <div class="habilidade-item">
+                    <div class="habilidade-info">
+                        <span>HTML</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="habilidade-item">
+                    <div class="habilidade-info">
+                        <span>CSS</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="habilidades-categoria">
+                <h3>Backend</h3>
+                <div class="habilidade-item">
+                    <div class="habilidade-info">
+                        <span>Python</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="habilidade-item">
+                    <div class="habilidade-info">
+                        <span>PHP</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="habilidade-item">
+                    <div class="habilidade-info">
+                        <span>JavaScript</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 50%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="habilidades-categoria">
+                <h3>Dados</h3>
+                <div class="habilidade-item">
+                    <div class="habilidade-info">
+                        <span>SQL</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="habilidade-item">
+                    <div class="habilidade-info">
+                        <span>Databricks</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%"></div>
+                    </div>
+                </div>
+                <div class="habilidade-item">
+                    <div class="habilidade-info">
+                        <span>GCP</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 65%"></div>
+                    </div>
+                </div>
+                <div class="habilidade-item">
+                    <div class="habilidade-info">
+                        <span>MySQL</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="habilidade-item">
+                    <div class="habilidade-info">
+                        <span>Oracle</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiência Section -->
+    <section id="experiencia" class="experiencia">
+        <h2 class="section-title">Experiência Profissional</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Seu Cargo</h3>
+                    <h4>Nome da Empresa</h4>
+                    <p class="timeline-date">MM/AAAA - Presente</p>
+                    <ul class="timeline-details">
+                        <li>[Descreva uma realização ou responsabilidade importante]</li>
+                        <li>[Descreva outra realização ou responsabilidade importante]</li>
+                        <li>[Continue listando realizações relevantes]</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Adicione mais itens de experiência aqui -->
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato">
+        <h2 class="section-title">Entre em Contato</h2>
+        <div class="contato-container">
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>seu.email@exemplo.com</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <h3>Telefone</h3>
+                <p>+55 (XX) XXXXX-XXXX</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Localização</h3>
+                <p>Sua Cidade, Estado - País</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Seu Nome. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/seu-usuario-github" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/seu-usuario-linkedin/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
