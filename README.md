@@ -66,7 +66,7 @@ portfolio/
    - Barras de progresso
    - Tooltips informativos
    - Divisão por categorias
-   - <img src="https://github.com/user-attachments/assets/c6155b13-7ba3-4a96-a7ed-0ef75b6b650a" alt="Captura de tela" width="600"/>
+   <img src="https://github.com/user-attachments/assets/c6155b13-7ba3-4a96-a7ed-0ef75b6b650a" alt="Captura de tela" width="600"/>
 
 6. **Experiência**
    - Timeline vertical
