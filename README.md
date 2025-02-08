@@ -46,33 +46,38 @@ portfolio/
    - Animação de digitação
    - Partículas interativas
    - Call-to-action buttons
-  <img src="https://github.com/user-attachments/assets/b337208e-5bbb-403f-b196-01f6ab8eba19" alt="Captura de tela" width="500"/>
+      <img src="https://github.com/user-attachments/assets/b337208e-5bbb-403f-b196-01f6ab8eba19" alt="Captura de tela" width="600"/>
      
 
 3. **Sobre**
    - Biografia profissional
    - Métricas principais
    - Cards de conquistas
+     <img src="https://github.com/user-attachments/assets/49485e8b-5813-498e-8c2a-937ed0191b4e" alt="Captura de tela" width="600"/>
 
 4. **Projetos**
    - Grid de projetos
    - Cards com detalhes
    - Imagens dos projetos
    - Icones de tecnologias utilizadas
+     <img src="https://github.com/user-attachments/assets/e0ac11f0-9e15-4855-8b33-2f3f25ef84f8" alt="Captura de tela" width="600"/>
 
 5. **Habilidades**
    - Barras de progresso
    - Tooltips informativos
    - Divisão por categorias
+     <img src="https://github.com/user-attachments/assets/c6155b13-7ba3-4a96-a7ed-0ef75b6b650a" alt="Captura de tela" width="600"/>
 
 6. **Experiência**
    - Timeline vertical
    - Animações em scroll
    - Destaque de conquistas
+     <img src="https://github.com/user-attachments/assets/4b37230f-4ae6-4440-b775-6bec90026d76" alt="Captura de tela" width="600"/>
 
 7. **Contato**
    - Cards com informações de contato
    - Links sociais
+     <img src="https://github.com/user-attachments/assets/74cd0dbb-f21b-4472-9bbb-8fd5d78ea24d" alt="Captura de tela" width="600"/>
 
 ## 🚀 Como Usar
 
