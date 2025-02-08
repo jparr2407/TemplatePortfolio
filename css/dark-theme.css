@@ -1,0 +1,105 @@
+/* Tema Escuro */
+[data-theme="dark"] {
+    --primary-color: #3b82f6;
+    --secondary-color: #60a5fa;
+    --text-color: #f3f4f6;
+    --bg-color: #111827;
+    --card-bg: #1f2937;
+    --header-bg: rgba(17, 24, 39, 0.8);
+}
+
+[data-theme="dark"] .logo h1 {
+    color: var(--primary-color);
+}
+
+[data-theme="dark"] .nav-links a {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .theme-btn {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .theme-btn:hover {
+    color: var(--primary-color);
+}
+
+[data-theme="dark"] .menu-btn__burger,
+[data-theme="dark"] .menu-btn__burger::before,
+[data-theme="dark"] .menu-btn__burger::after {
+    background: var(--text-color);
+}
+
+[data-theme="dark"] .hero-text h1,
+[data-theme="dark"] .hero-text h2 {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .title {
+    color: var(--secondary-color);
+}
+
+[data-theme="dark"] .btn.secondary-btn {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+[data-theme="dark"] .social-links a {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .social-links a:hover {
+    color: var(--primary-color);
+}
+
+[data-theme="dark"] .section-title {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .metrica-card {
+    background: var(--bg-color);
+}
+
+[data-theme="dark"] .metrica-card h3 {
+    color: var(--primary-color);
+}
+
+[data-theme="dark"] .metrica-card p {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .projeto-card {
+    background: var(--card-bg);
+}
+
+[data-theme="dark"] .projeto-info h3,
+[data-theme="dark"] .projeto-info p {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .projeto-tech span {
+    color: var(--secondary-color);
+}
+
+[data-theme="dark"] .sobre-text {
+    background: var(--card-bg);
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .sobre-descricao {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .sobre-lista li {
+    color: var(--text-color);
+}
+
+/* Ajustes de contraste para melhor legibilidade */
+[data-theme="dark"] .primary-btn {
+    background: var(--primary-color);
+    color: var(--bg-color);
+}
+
+[data-theme="dark"] .particles-js-canvas-el {
+    opacity: 0.3;
+} 
