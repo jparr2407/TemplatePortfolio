@@ -46,6 +46,8 @@ portfolio/
    - Animação de digitação
    - Partículas interativas
    - Call-to-action buttons
+  <img src="https://github.com/user-attachments/assets/b337208e-5bbb-403f-b196-01f6ab8eba19" alt="Captura de tela" width="500"/>
+     
 
 3. **Sobre**
    - Biografia profissional
